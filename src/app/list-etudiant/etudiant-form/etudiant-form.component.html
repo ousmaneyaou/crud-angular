@@ -1,0 +1,50 @@
+<body>
+
+    <div id="wrapper">
+        <h2 id="titleRegistration">REGISTRATION FORM</h2>
+        <button type="submit" class="btn btn-success mb-2" (click)="onBack()">Retour</button>
+        <form [formGroup]="etudiantForm" (ngSubmit)="onSaveEtudiant()">
+            <fieldset id="userInformation">
+                <legend>User Information</legend>
+
+                <div class="divInformation">
+                    <label class="label" for="firstname">First Name:</label>
+                    <input type="text" id="firstname" class="input" placeholder="votre nom" formControlName="firstname"/>
+        
+                </div>
+
+                <div class="divInformation">
+                    <label class="label" for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" class="input" placeholder="votre prenom" formControlName="lastname"/>
+                
+                </div>
+
+                <div class="divInformation">
+                    <label class="label" for="email">Email:</label>
+                    <input type="text" id="email" class="input" placeholder="votre email" formControlName="email"/>
+                    
+                </div>
+
+                <div class="divInformation">
+                    <label class="label" for="domain">domain:</label>
+                    <input type="text" id="domain" class="input" placeholder="Formation" formControlName="domain"/>
+                    
+                </div>
+
+                <div class="divInformation">
+                    <label class="label" for="checked">checked:</label>
+                    <input type="checkbox" id="checked" class="form-check-input" formControlName="checked"/>
+                    
+                </div>
+
+                
+            </fieldset>
+
+            <fieldset id="nextStep">
+                <button id="nextStepBtn" [disabled]="etudiantForm.invalid">Enregistrer</button>
+            </fieldset>
+
+        </form>
+    </div>
+
+</body>

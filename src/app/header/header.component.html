@@ -1,0 +1,49 @@
+
+<body>
+  <div>
+    <div class="header-dark">
+      <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+        <div class="container">
+          <a class="navbar-brand" routerLink="homes">Test crud</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcol-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" routerLink="etudiants">Etudiant</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Universités
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">UAM</a>
+                  <a class="dropdown-item" href="#">UDD</a>
+                  <!--<div class="dropdown-divider"></div>-->
+                  <a class="dropdown-item" href="#">UDH</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline mr-auto" target="_self">
+              <div class="form-group">
+                <label for="search-field">
+                  <i class="fa fa-search"></i>
+                </label>
+                <input class="form-control search-field" type="search" name="search" id="search-field">
+              </div>
+            </form>
+            <span class="navbar-text">
+              <a routerLink="autentification/signin" class="login">Log In</a>
+            </span>
+            <a class="btn btn-light action-button" role="button" routerLink="autentification/signup">Sign Up</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+

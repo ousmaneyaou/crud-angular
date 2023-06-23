@@ -1,0 +1,87 @@
+{
+  "etudiants": [
+    {
+      "id": 1,
+      "firstname": "souley",
+      "lastname": "ousmane",
+      "email": "ousmaneyaou00@gmail.com",
+      "domain": "informatique",
+      "checked": true
+    },
+    {
+      "id": 2,
+      "firstname": "mohamed",
+      "lastname": "ali",
+      "email": "moali@gmail.com",
+      "domain": "boxeur",
+      "checked": false
+    },
+    {
+      "id": 3,
+      "firstname": "soumaila",
+      "lastname": "mahamadou",
+      "email": "mahasom@gmail.com",
+      "domain": "environnementaliste",
+      "checked": false
+    },
+    {
+      "id": 4,
+      "firstname": "karimou",
+      "lastname": "hassane",
+      "email": "goubacons@gmail.com",
+      "domain": "dev web",
+      "checked": false
+    },
+    {
+      "id": 5,
+      "firstname": "soumana",
+      "lastname": "diallo",
+      "email": "soum@gmail.com",
+      "domain": "juriste",
+      "checked": true
+    },
+    {
+      "firstname": "kenda",
+      "lastname": "souleymane",
+      "email": "kenda@gmail.com",
+      "domain": "dévelloper",
+      "checked": false,
+      "id": 6
+    },
+    {
+      "firstname": "test",
+      "lastname": "test",
+      "email": "test@test.com",
+      "domain": "test",
+      "checked": true,
+      "id": 7
+    },
+    {
+      "firstname": "sani",
+      "lastname": "gonda",
+      "email": "gonda@gmail.com",
+      "domain": "génie civil",
+      "checked": false,
+      "id": 8
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "mahamadou",
+      "number": "",
+      "email": "mahasom@gmail.com",
+      "password": "0000",
+      "id": 1
+    },
+    {
+      "fullname": "karimou",
+      "number": "",
+      "email": "goubacons@gmail.com",
+      "password": "1212",
+      "id": 2
+    }
+  ],
+  "profile": {
+    "name": "testEtudiants"
+  }
+}
